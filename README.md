@@ -5,24 +5,24 @@ Không cần ôm quá nhiều Dependencies nâng cao, rút gọn thành bộ cơ
 
 ## 1. Spring Boot MVC
 
-| Dependency           | Công dụng                                                             | Bắt buộc?             |
-| -------------------- | --------------------------------------------------------------------- | --------------------- |
-| Spring Web           | Tạo Controller, xử lý Request và Response, xây dựng ứng dụng web MVC. | Có                    |
-| Thymeleaf            | Kết nối Java với HTML để hiển thị dữ liệu động.                       | Có nếu dùng Thymeleaf |
-| Spring Data JPA      | Thao tác Database, hỗ trợ CRUD thông qua Repository.                  | Khi học Database      |
-| MS SQL Server Driver | Kết nối ứng dụng với SQL Server.                                      | Khi dùng SQL Server   |
-| Lombok               | Tự động tạo Getter, Setter, Constructor.                              | Không                 |
-| Spring Boot DevTools | Hỗ trợ tự động restart khi chỉnh sửa code.                            | Không                 |
+| Dependency           | Công dụng                                                             |
+| -------------------- | --------------------------------------------------------------------- |
+| Spring Web           | Tạo Controller, xử lý Request và Response, xây dựng ứng dụng web MVC. |
+| Thymeleaf            | Kết nối Java với HTML để hiển thị dữ liệu động.                       |
+| Spring Data JPA      | Thao tác Database, hỗ trợ CRUD thông qua Repository.                  |
+| MS SQL Server Driver | Kết nối ứng dụng với SQL Server.                                      |
+| Lombok               | Tự động tạo Getter, Setter, Constructor.                              |
+| Spring Boot DevTools | Hỗ trợ tự động restart khi chỉnh sửa code.                            |
 
 ## 2. Spring Boot REST API
 
-| Dependency           | Công dụng                                                      | Bắt buộc?           |
-| -------------------- | -------------------------------------------------------------- | ------------------- |
-| Spring Web           | Tạo REST Controller, xử lý GET, POST, PUT, DELETE và trả JSON. | Có                  |
-| Spring Data JPA      | Thao tác Database, hỗ trợ CRUD.                                | Khi học Database    |
-| MS SQL Server Driver | Kết nối với SQL Server.                                        | Khi dùng SQL Server |
-| Lombok               | Giảm code Getter, Setter, Constructor.                         | Không               |
-| Spring Boot DevTools | Hỗ trợ tự động restart ứng dụng.                               | Không               |
+| Dependency           | Công dụng                                                      |
+| -------------------- | -------------------------------------------------------------- |
+| Spring Web           | Tạo REST Controller, xử lý GET, POST, PUT, DELETE và trả JSON. |
+| Spring Data JPA      | Thao tác Database, hỗ trợ CRUD.                                |
+| MS SQL Server Driver | Kết nối với SQL Server.                                        |
+| Lombok               | Giảm code Getter, Setter, Constructor.                         |
+| Spring Boot DevTools | Hỗ trợ tự động restart ứng dụng.                               |
 
 
 MVC – Khi tạo project
